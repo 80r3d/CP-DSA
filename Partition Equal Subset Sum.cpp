@@ -1,4 +1,4 @@
-# Bit Manipulation
+// Bit Manipulation
 
 bool canPartition(vector<int>& nums) {
         int sum = accumulate(nums.begin(),nums.end(),0);
@@ -14,7 +14,7 @@ bool canPartition(vector<int>& nums) {
         
     }
     
-    # DP
+//      DP
     
     bool canPartition(vector<int>& nums) {
         int target = accumulate(begin(nums),end(nums),0);
